@@ -85,7 +85,7 @@ export default function HomePage() {
                 sx={{
                   position: "absolute",
                   bottom: 20,
-                  color: "rgba(255,140,0,0.85)", // rustic orange
+                  color: "rgba(255,140,0,0.55)", // rustic orange
                   fontWeight: "bold",
                   textShadow: "2px 2px 6px rgba(0,0,0,0.7)",
                 }}
