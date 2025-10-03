@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Slider, { Settings } from "react-slick";
+import Slider from "react-slick";
+import type { Settings } from "react-slick";
 import { Box, Typography, Fade } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
