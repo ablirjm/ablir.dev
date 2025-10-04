@@ -87,7 +87,9 @@ export default function HomePage() {
                   bottom: 20,
                   color: "rgba(255,140,0,0.55)", // rustic orange
                   fontWeight: "bold",
-                  textShadow: "2px 2px 6px rgba(0,0,0,0.7)",
+                  textShadow: "2px 2px 6px rgba(0,0,0,0.45)",
+                  background: "rgba(244, 244, 244, .25)",
+                  width: "100%"
                 }}
               >
                 {section.text}
