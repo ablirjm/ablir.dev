@@ -5,9 +5,6 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import type { ReactNode } from 'react';
 import Homepage from './page/Homepage/Homepage';
-import Projects from './page/Projects/Projects';
-import DoodleSitePage from './page/Projects/DoodleSite';
-import UiPrototyperPage from './page/Projects/UiPrototyper';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -37,14 +34,10 @@ export default function App() {
 
             {/* Homepage route */}
             <Route path="/homepage" element={<Homepage/>} />
-
-            {/* Projects */}
-            <Route path="/projects" element={<Projects/>} />
-            <Route path="/projects/doodlesite" element={<DoodleSitePage/>} />
-            <Route path="/projects/ui-prototyper" element={<UiPrototyperPage/>} />
           </Routes>
       </BrowserRouter >
     </AppThemeProvider>
     </>
   )
 }
+
