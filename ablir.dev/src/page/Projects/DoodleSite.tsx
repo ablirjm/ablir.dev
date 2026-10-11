@@ -52,10 +52,7 @@ export default function DoodleSitePage() {
       </Body>
       <Stack direction="row" spacing={1.5} useFlexGap flexWrap="wrap" sx={{ mb: 5 }}>
         <Button href={`${base}/showcase.html`} target="_blank" rel="noreferrer" variant="contained" sx={{ bgcolor: accent, color: "#000", fontWeight: 600, fontFamily: bodyFont, "&:hover": { bgcolor: "#ffa733" } }}>
-          Open the presentation
-        </Button>
-        <Button href={`${base}/doodlesite-blueprint.zip`} variant="outlined" sx={{ borderColor: "rgba(255,140,0,0.5)", color: accent, fontFamily: bodyFont }}>
-          Blueprint (.zip)
+          Open the showcase
         </Button>
         <Button href="#demo" variant="outlined" sx={{ borderColor: "rgba(255,140,0,0.5)", color: accent, fontFamily: bodyFont }}>
           Watch the demo
@@ -127,17 +124,13 @@ export default function DoodleSitePage() {
         or a deleted mark. The showcase below is generated from those runs.
       </Body>
 
-      <SectionTitle id="showcase">Presentation</SectionTitle>
+      <SectionTitle id="showcase">Showcase</SectionTitle>
       <Body sx={{ mb: 2 }}>
-        The system presented in three parts: an overview of how it works and its two back-ends, a blueprint explorer that shows the
-        real prompt modules, assembler, providers, checks, and project skills with a plain-English pane beside each file, and the usage
-        guide with the recorded session and one worked example. The six generated pages from the scenario suite are in a separate{" "}
-        <a href={`${base}/gallery.html`} target="_blank" rel="noreferrer" style={{ color: accent }}>
-          gallery
-        </a>
-        .{" "}
+        Six sketches, six prototypes: a portfolio, an operations dashboard, a phone-only app, an adjustment of an existing site, a
+        refinement round, and a photographed ballpoint sketch with motion marks. Each shows the sketch, the live prototype, and the
+        model's reading.{" "}
         <a href={`${base}/showcase.html`} target="_blank" rel="noreferrer" style={{ color: accent }}>
-          Open the presentation full size
+          Open it full size
         </a>
         .
       </Body>

@@ -24,8 +24,7 @@ export const projects: Project[] = [
     stack: ["React", "Vite", "TypeScript", "Express", "Claude API", "Claude Code CLI", "Playwright"],
     cover: "/projects/doodlesite/step-6-result.png",
     links: [
-      { label: "Presentation", href: "/projects/doodlesite/showcase.html", external: true },
-      { label: "Gallery", href: "/projects/doodlesite/gallery.html", external: true },
+      { label: "Showcase", href: "/projects/doodlesite/showcase.html", external: true },
       { label: "GitHub (private)", href: "https://github.com/ablir/DoodleSite", external: true },
     ],
   },
