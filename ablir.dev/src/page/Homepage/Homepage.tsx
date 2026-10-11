@@ -1,9 +1,10 @@
 import { useState } from "react";
 import Slider from "react-slick";
 import type { Settings } from "react-slick";
-import { Box, Typography, Fade } from "@mui/material";
+import { Box, Typography, Fade, Button } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { PORTFOLIO_URL } from "../../config";
 
 const sections = [
   {
@@ -116,6 +117,22 @@ export default function HomePage() {
             {sections[index].description}
           </Typography>
         </Fade>
+        <Button
+          href={PORTFOLIO_URL}
+          target="_blank"
+          rel="noreferrer"
+          variant="outlined"
+          sx={{
+            mt: 3,
+            borderColor: "rgba(255,140,0,0.6)",
+            color: "#ff8c00",
+            fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+            letterSpacing: "0.04em",
+            "&:hover": { borderColor: "#ff8c00", bgcolor: "rgba(255,140,0,0.08)" },
+          }}
+        >
+          View portfolio and projects
+        </Button>
       </Box>
 
       {/* Custom dots CSS */}
